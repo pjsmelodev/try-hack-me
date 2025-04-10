@@ -1,0 +1,11 @@
+SECURITY TRIAD (CIA):
+CONFIDENTIALITY: ensures that only the intended persons or recipients can access the data
+INTEGRITY: aims to ensure that the data cannot be altered; moreover, we can detect any alteration if it occurs
+AVAILABILITY: aims to ensure that the system or service is available when needed
+
+BEYOND CIA:
+AUTHENTICITY: means not fraudulent or counterfeit. Is about ensuring that the document/file/data is from the claimed source
+NONREPUDIATION: means refusing to recognize the validity of something. Ensures that the original source cannot deny that they are the source of a particular document/file/data
+
+UTILITY: focuses on the usefulness of the information
+POSSESSION: requires that we protect the information from unauthorized taking, copying, or controlling
