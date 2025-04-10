@@ -1,0 +1,36 @@
+TASK 2:
+At a police checkpoint, the police officer suspected that the vehicle registration papers were fake.
+    integrity
+
+You went to cash out a cheque, and the bank teller made you wait for five minutes as they confirmed the signature of the cheque's issuer.
+    integrity
+
+One hotel is stressing that the Internet over its WiFi network must be accessible 24 hours a day, seven days a week.
+    availability
+
+As the troops got deployed, the leader stressed that they should not communicate their location to anyone while the mission was ongoing.
+    confidentiality
+
+THM{CIA_TRIAD}
+
+TASK 3:
+The attacker managed to gain access to customer records and dumped them online. What is this attack?
+    disclosure
+
+A group of attackers were able to locate both the main and the backup power supply systems and switch them off. As a result, the whole network was shut down. What is this attack?
+    destruction/denial
+
+Task 4:
+Which model dictates “no read down”?
+    Biba
+
+Which model states “no read up”?
+    Bell-LaPadula
+
+Which model teaches “no write down”?
+    Bell-LaPadula
+
+Which model forces "no write up"?
+    Biba
+
+THM{SECURITY_MODELS} 

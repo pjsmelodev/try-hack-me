@@ -1,11 +1,40 @@
 SECURITY TRIAD (CIA):
-CONFIDENTIALITY: ensures that only the intended persons or recipients can access the data
-INTEGRITY: aims to ensure that the data cannot be altered; moreover, we can detect any alteration if it occurs
-AVAILABILITY: aims to ensure that the system or service is available when needed
+CONFIDENTIALITY: ensures that only the intended persons or recipients can access the data.
+INTEGRITY: aims to ensure that the data cannot be altered; moreover, we can detect any alteration if it occurs.
+AVAILABILITY: aims to ensure that the system or service is available when needed.
 
 BEYOND CIA:
-AUTHENTICITY: means not fraudulent or counterfeit. Is about ensuring that the document/file/data is from the claimed source
-NONREPUDIATION: means refusing to recognize the validity of something. Ensures that the original source cannot deny that they are the source of a particular document/file/data
+AUTHENTICITY: means not fraudulent or counterfeit. Is about ensuring that the document/file/data is from the claimed source.
+NONREPUDIATION: means refusing to recognize the validity of something. Ensures that the original source cannot deny that they are the source of a particular document/file/data.
 
-UTILITY: focuses on the usefulness of the information
-POSSESSION: requires that we protect the information from unauthorized taking, copying, or controlling
+UTILITY: focuses on the usefulness of the information.
+POSSESSION: requires that we protect the information from unauthorized taking, copying, or controlling.
+
+MEANS OF ATTACK (DAD):
+DISCLOSURE: is the opposite of confidentiality.
+ALTERATION: is the opposite of integrity.
+DESTRUCTION/DENIAL: is the opposite of availability.
+
+Bell-LaPadula MODEL: aims to achieve confidentiality.
+SIMPLE SECURITY PROPERTY: referred to as "no read up"; it states that a subject of a lower security level cannot read an object of a higher security level.
+    This rule prevents access to sensitive information above the authorized level.
+
+STAR SECURITY PROPERTY: referred to "no write down"; it states that a subject at a higher security level cannot write to an object at a lower security level.
+    This rule prevents the disclosure of sensitive information to a subject of lower security level.
+
+DISCRETION-SECURITY PROPERTY: uses an access matrix to allow read and write operations.
+
+Biba MODEL: aims to achieve integrity.
+SIMPLE INTEGRITY PROPERTY: referred to as "no read down".
+    A higher integrity subject should not read from a lower integrity object.
+
+STAR INTEGRITY PROPERTY: referred as "no write up".
+    A lower integrity subject should not write to a higher integrity object.
+ 
+Clark-Wilson MODEL: aims to achieve integrity.
+CONSTRAINED DATA ITEM (CDI): refers to the data type whose integrity we want to preserve.
+
+UNCONSTRAINED DATA ITEM (UDI): referes to all data types beyond CDI.
+    Such as user and system input.
+
+INTEGRITY VERIFICATION PROCEDURES (IVPs): check and ensure the validity of CDIs.
